@@ -1,11 +1,11 @@
  class SimpleInterestCalculator {
     public static void main(String[] args) {
         
-        double P = 10000;
+        double P = 100000;
         
-        double R = 5;
+        double R = 7.5;
         
-        double T = 5;
+        double T = 1;
 
         
         double simpleInterest = (P * T * R) / 100;
