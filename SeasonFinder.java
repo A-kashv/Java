@@ -5,7 +5,7 @@ public class SeasonFinder {
         Scanner scanner = new Scanner(System.in);
         
        
-        System.out.print("Enter the month number (1-12): ");
+        System.out.print("Enter the month  (1-12): ");
         int month = scanner.nextInt();
         
         
