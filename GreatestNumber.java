@@ -3,17 +3,17 @@ import java.util.Scanner;
 public class GreatestNumber {
     public static void main(String[] args) {
         
-        Scanner sca = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
 
         
         System.out.print("Enter the first number: ");
-        int a = sca.nextInt();
+        int a = sc.nextInt();
         
         System.out.print("Enter the second number: ");
-        int b = sca.nextInt();
+        int b = sc.nextInt();
         
         System.out.print("Enter the third number: ");
-        int c = sca.nextInt();
+        int c = sc.nextInt();
 
         
         int greatest = (a >= b && a >= c) ? a : 
@@ -23,6 +23,6 @@ public class GreatestNumber {
         System.out.println("The greatest number is: " + greatest);
 
         
-        sca.close();
+        sc.close();
     }
 }
