@@ -6,7 +6,7 @@ public class LetterComparison {
         Scanner sc = new Scanner(System.in);
 
         
-        System.out.print("Enter th first letter: ");
+        System.out.print("Enter the first letter: ");
         char letter1 = sc.nextChar();  
 
         
