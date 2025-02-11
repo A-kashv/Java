@@ -16,7 +16,7 @@ public class DivisibilityCheck {
         } else if (number % 3 == 0) {
             System.out.println("Good Evening");
         } else {
-            System.out.println("Good Night");
+            System.out.println("Good Nights");
         }
         
         
